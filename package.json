@@ -2,11 +2,18 @@
   "name": "clase-1",
   "version": "1.0.0",
   "description": "La planificacion es clave para el exito de un proyecto. Sin planificacion, uno comienza a dar manotazos de ahogado. Un proyecto desprolijo y desordenado, se vuelve en un triple trabajo para el equipo, que debe corregir errores, rehacer tareas y lidiar con la frustracion de no avanzar.\r Vamos a trabajar mucho con la arquitectura de un servidor. \"Diseño y Arquitectura de Backend\".",
-  "main": "app..js",
+  "main": "app.js",
+  "type": "module",
   "scripts": {
+    "start": "node --watch app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongodb": "^7.1.0",
+    "mongoose": "^9.2.1"
+  }
 }
